@@ -1,0 +1,25 @@
+{
+  "name": "ai-chat",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemone index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.1.4",
+    "express": "~4.16.1",
+    "helmet": "^7.0.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
